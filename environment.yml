@@ -1,0 +1,12 @@
+name: autopilot-map
+channels:
+  - conda-forge
+dependencies:
+  - jupyter
+  - pandas
+  - numpy
+  - python >=3.8
+  - pytest
+  - matplotlib
+  - geopandas
+  - mamba

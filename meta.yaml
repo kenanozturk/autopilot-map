@@ -1,0 +1,40 @@
+package:
+  name: "autopilot-map"
+  version: "0"
+
+source:
+  - path: src/autopilot_map
+    folder: autopilot_map
+  - path: setup.py
+  - path: README.md
+  - path: sampledata
+    folder: sampledata
+  - path: test
+    folder: test
+
+build:
+  noarch: python
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - pytest
+  run:
+    - python>=3.5
+    - setuptools
+
+test:
+  imports:
+    - autopilot_map
+  requires:
+    - pytest
+  commands:
+    - py.test --pyargs ./test
+  source_files:
+    - sampledata/
+    - test/
+
+
+
+
