@@ -27,5 +27,5 @@ def get_wind_data(lat: float, lon: float) -> str:
     """
     return manager.get_data(lat, lon)
 
-# if __name__ == '__main__':
-#     uvicorn.run(app, host="localhost", port=5000)
+if __name__ == '__main__':
+    uvicorn.run(app, host="localhost", port=5000)
