@@ -1,0 +1,13 @@
+
+key : 'fe55079c498245bb8fc62c60b7c16aa7'
+dbEntry:
+  host: "localhost"
+  user: "VR_ADMIN"
+  password: "bounyelken"
+  database: "winddatabase"
+field:
+  coordinates:
+    - [36.717031876029374, 36.85407400071618]
+    - [28.26905510367388, 28.366958871808905]
+  resolution : 3  
+  saveHorizon: 60

@@ -1,0 +1,10 @@
+windfield:
+  type: "WindDB"
+
+  field:
+    coordinates:
+      - [36.700, 36.800]
+      - [28.200, 28.450]
+tzero: 1612101600
+horizon: 10
+dt: 1 # hour
